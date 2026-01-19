@@ -9,11 +9,13 @@ class DrishtiEngine:
     Handles Data Ingestion, Feature Engineering (USR), and K-Means Clustering.
     """
 
-    def _init_(self):
+    def __init__(self):
+        # DOUBLE UNDERSCORES before and after 'init' are critical!
         self.scaler = MinMaxScaler()
+        
         # EXPLAINABLE AI NOTE:
         # We use K-Means (k=3) instead of Neural Networks because government governance
-        # requires interpretability. ROs need to know why a district is flagged.
+        # requires interpretability. ROs need to know *why* a district is flagged.
         self.kmeans = KMeans(n_clusters=3, random_state=42, n_init=10)
 
     def generate_synthetic_data(self, num_districts=750):
