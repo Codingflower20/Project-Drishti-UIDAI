@@ -28,6 +28,6 @@ Currently, UIDAI's grievance redressal is **Reactive**. Problems in service deli
 
 ### 🚀 How to Run
 ```bash
-git clone [https://github.com/your-username/Project-Drishti-UIDAI.git](https://github.com/your-username/Project-Drishti-UIDAI.git)
+git clone https://github.com/Codingflower20/Project-Drishti-UIDAI.git
 pip install -r requirements.txt
 python app.py
