@@ -24,7 +24,7 @@ Currently, UIDAI's grievance redressal is **Reactive**. Problems in service deli
 -   **Deployment:** Dockerized container (Ready for UIDAI Private Cloud)
 
 ### Snapshots
-*(Upload a screenshot of your dashboard here showing Red/Green zones)*
+![](/assets/Screenshot)
 
 ### How to Run
 ```bash
