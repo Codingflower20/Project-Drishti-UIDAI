@@ -25,6 +25,7 @@ Currently, the grievance redressal mechanism is **Reactive**.
 -   **Deployment:** Dockerized container (Ready for UIDAI Private Cloud)
 
 ### Snapshots
+![](/assets/LoginPage )
 ![](/assets/Screenshot)
 
 ### How to Run
